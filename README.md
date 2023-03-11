@@ -1,6 +1,9 @@
 DJ Music Mixer
 
-making a drag and drop music mixer project  
+This is a drag and drop DJ music mixer. You can drag icons into the box to play an audio based on the icon. You can drag multiple icons at the same time to creat your own beat.
+ There are mulitple icons you can choose from and you are able to play 6 diffrent audio at the same time.
+ Moreever, you can pause, play, rewind and adjust the valume of the beat by using the audio controlls bellow. 
+ Start Creating Your Own Beat!
 
 ## Installation
 
