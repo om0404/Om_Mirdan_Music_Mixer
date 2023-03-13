@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_5" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.38 169.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efefef;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #1a1a1a;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="7.02" y="8.36" width="153.65" height="151.28" rx="3.28" ry="3.28"/>
+  <path class="cls-2" d="M28.3,13.09h16.55V97.19c0,.55-.45,1-1,1h-14.55c-.55,0-1-.45-1-1V13.09h0Z"/>
+  <path d="M59.03,13.09h16.55V97.19c0,.55-.45,1-1,1h-14.55c-.55,0-1-.45-1-1V13.09h0Z"/>
+  <path d="M120.48,13.09h16.55V97.19c0,.55-.45,1-1,1h-14.55c-.55,0-1-.45-1-1V13.09h0Z"/>
+  <rect x="35.39" y="10.73" width="2.36" height="146.55"/>
+  <rect x="66.12" y="10.73" width="2.36" height="146.55"/>
+  <rect x="96.85" y="10.73" width="2.36" height="146.55"/>
+  <rect x="127.58" y="10.73" width="2.36" height="146.55"/>
+</svg>

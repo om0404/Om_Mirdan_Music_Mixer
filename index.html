@@ -2,11 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DJ Music Mixer</title> 
 </head>
+
 <body>
-    
+    <header id="headLine">
+		<h1>DJ Music Mixer</h1>
+		<p>Drag and Drop</p>
+	</header>
+
+    <section id="dj-boards">
+
+		<div class="dj-icons">
+			<img src="images/guitar_icon.svg" class="icons-image" alt="top left">
+			<img src="images/drum_icon.svg" class="icons-image" alt="top right">
+			<img src="images/microphone_icon.svg" class="icons-image" alt="bottom left">
+
+		</div>
+
+		<!--draggable icons here -->
+		<div class="drop-board">
+			<div class="drop-zone tl"></div>
+			<div class="drop-zone tr"></div>
+			<div class="drop-zone bl"></div>
+			<div class="drop-zone br"></div>
+			<div class="drop-zone tl"></div>
+			<div class="drop-zone tr"></div>
+		</div>
+
+        <div class="dj-icons">
+			<img src="images/piano_icon.svg" class="icons-image" alt="top left">
+			<img src="images/disk_icon.svg" class="icons-image" alt="top right">
+			<img src="images/phonograph_icon.svg" class="icons-image" alt="bottom left">
+		</div>
+	</section>
+    <footer>
+		<p>Audio Controls </p>
+
+
+		<section class="audio-controls">
+			<button id="playButton">PLAY</button>
+			<button id="pauseButton">PAUSE</button>
+			<button id="rewindButton">REWIND</button>
+	  
+			<input id="volumeControl" type="range" min="0" max="100" step="1"></input>
+	  
+		  </section>
+	</footer>
+
+	<script src="script/main.js"></script>
+
 </body>
 </html>
