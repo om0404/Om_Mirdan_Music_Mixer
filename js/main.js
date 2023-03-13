@@ -7,3 +7,16 @@ let theButtons = document.querySelectorAll("#buttonHolder img"),
     piecesBoard = document.querySelector(".dj-icons"),	
 
     draggedPiece; 
+
+
+
+
+    theButtons.forEach(button => button.addEventListener("click", changeBGImage));
+
+musicPieces.forEach(piece => piece.addEventListener('dragstart', handleStartDrag));
+
+dropZones.forEach(zone =>zone.addEventListener("dragover", handleDragOver));
+
+dropZones.forEach(zone => zone.addEventListener("drop", handleDrop));
+
+tempLink.addEventListener('click', blockDefaultBehaviour);
