@@ -1,3 +1,42 @@
-.hidden {
-    display: none;
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	border: 0px;
+	background-image:url(../images/puzzle2.jpg);
+	background-repeat:repeat;
+	background-color: #333;
+	color:#FFF;
+	font-family: 'Luckiest Guy', sans-serif;
+	font-size:16px;
+}
+
+#dj-boards {
+	width: 100%;
+	text-align: center;
+}
+
+.drop-board {
+	margin-top: 40px;
+	height: 400px;
+	display: inline-block;
+	border: medium solid #333;
+	background-color: #000;
+	color: inherit;
+	overflow: hidden;
+}
+.dj-icons {
+	border-radius: 10px;
+	margin-top: 40px;
+	width: 200px;
+	height: 400px;
+	display: inline-block;
+	border: medium solid #333;
+	background-color: #8343b5;
+	color: inherit;
+	overflow: hidden;
+}
+
+.dj-icons {
+	width: 300px;
 }
