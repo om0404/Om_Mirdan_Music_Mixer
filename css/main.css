@@ -81,3 +81,52 @@ padding-left: 30px;
 
 .bl img { right: 0; top: 0; }
 .br img { left: 0; top: 0; }
+
+header {
+	position: relative;
+	top: 20px;
+	width:600px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 3.25em;
+  letter-spacing: 3px;
+	margin: 10px 0
+}
+
+header p, footer p { font-size: 1.7em; letter-spacing: 2px; margin: 10px 0 }
+
+footer {
+	position: relative;
+	top: 65px;
+	width:600px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#headLine h1 { transition: all 1.5s ease; }
+
+.orange-headline { color: orange; }
+
+.audio-controls { margin-top: 1.5em; border-top: thin solid #ffffff; }
+
+.audio-controls button {
+	border-radius: 4px;
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+  background-color: #7b46af;
+  color: white;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+.audio-controls button:hover{
+	transition: 0.2s;
+	border-radius: 10px;
+	background-color:#9664bc;
+	
+}
+.volumeControl{
+	background-color: #7b46af;	
+}
