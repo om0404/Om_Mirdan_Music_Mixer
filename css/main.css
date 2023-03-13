@@ -40,3 +40,44 @@ body {
 .dj-icons {
 	width: 300px;
 }
+.drop-board { 
+	border-radius: 10px;
+	width:600px; 
+	background-image: url('../images/dj_bg.svg');
+	background-repeat: no-repeat;
+}
+
+.icons-image {
+	width: 40%;
+	display: block;
+	padding: 8px;
+	cursor: pointer;
+}
+
+.icons-image:nth-child(even) {
+	clear: both;
+}
+.icons-image:nth-child(odd) {
+	float: left;
+	clear: both;
+}
+
+.drop-zone {
+padding-left: 30px;
+	width: 20.5%;
+	height: 35.5%;
+	border: thin dashed white;
+	float: left;
+	position: relative;
+}
+
+.drop-zone img { 
+	position: absolute; width: 90% !important;
+	float: none;
+}
+
+.tl img { right: 0; bottom: 0; }
+.tr img { left: 0; bottom: 0; }
+
+.bl img { right: 0; top: 0; }
+.br img { left: 0; top: 0; }
