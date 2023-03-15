@@ -1,5 +1,8 @@
+
 @charset "utf-8";
-/* CSS Document */
+
+
+
 body {
 	margin: 0px;
 	border: 0px;
@@ -40,6 +43,7 @@ body {
 .dj-icons {
 	width: 300px;
 }
+
 .drop-board { 
 	border-radius: 10px;
 	width:600px; 
@@ -81,6 +85,7 @@ padding-left: 30px;
 
 .bl img { right: 0; top: 0; }
 .br img { left: 0; top: 0; }
+
 
 header {
 	position: relative;
