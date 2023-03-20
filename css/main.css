@@ -38,6 +38,8 @@ body {
 	background-color: #8343b5;
 	color: inherit;
 	overflow: hidden;
+	text-align: center;
+	padding-left: 120px;
 }
 
 .dj-icons {
