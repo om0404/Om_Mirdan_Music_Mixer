@@ -6,9 +6,9 @@
 body {
 	margin: 0px;
 	border: 0px;
-	background-image:url(../images/puzzle2.jpg);
-	background-repeat:repeat;
-	background-color: #333;
+	background-image: url('../images/triangle-prism.gif');
+	background-size: cover;
+	background-position: center;
 	color:#FFF;
 	font-family: 'Luckiest Guy', sans-serif;
 	font-size:16px;
@@ -35,14 +35,16 @@ body {
 	height: 400px;
 	display: inline-block;
 	border: medium solid #333;
-	background-color: #8343b5;
-	color: inherit;
 	overflow: hidden;
 	text-align: center;
 	padding-left: 120px;
+	background-image: url('../images/smoke.gif');
 }
 
 .dj-icons {
+	
+	background-size: cover;
+	background-position: center;
 	width: 300px;
 }
 
