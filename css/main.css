@@ -6,9 +6,10 @@
 body {
 	margin: 0px;
 	border: 0px;
-	background-image:url(../images/puzzle2.jpg);
-	background-repeat:repeat;
-	background-color: #333;
+	background-image: url('/images/main-bg.png');
+	/* background-color: #333; */
+	background-size: cover;
+	background-position: center;
 	color:#FFF;
 	font-family: 'Luckiest Guy', sans-serif;
 	font-size:16px;
@@ -23,7 +24,7 @@ body {
 	margin-top: 40px;
 	height: 400px;
 	display: inline-block;
-	border: medium solid #333;
+	border: medium solid #7b46af;
 	background-color: #000;
 	color: inherit;
 	overflow: hidden;
@@ -34,16 +35,19 @@ body {
 	width: 200px;
 	height: 400px;
 	display: inline-block;
-	border: medium solid #333;
-	background-color: #8343b5;
-	color: inherit;
+	border: medium solid #7b46af;
 	overflow: hidden;
 	text-align: center;
 	padding-left: 120px;
+	/* background-color: #7b46af; */
+	background-image: url('/images/bg.jpg');
 }
 
 .dj-icons {
-	width: 300px;
+	
+	background-size: cover;
+	background-position: center;
+	width: 250px;
 }
 
 .drop-board { 
@@ -134,6 +138,7 @@ footer {
 	background-color:#9664bc;
 	
 }
-.volumeControl{
-	background-color: #7b46af;	
+#volumeControl {
+    background-color: #9664bc;
+    color: white;
 }
